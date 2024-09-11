@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get("http://localhost:4000/api/v1/user/patient/logout", {
+      .get("https://backend-hospital-management.onrender.com//api/v1/user/patient/logout", {
         withCredentials: true,
       })
       .then((res) => {
@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
           <button
             className="logoutBtn btn"
-            onClick={() => window.open("http://localhost:5174/login", "_blank")}
+            onClick={() => window.open("https://dashboard-hospital-management-system.vercel.app/login", "_blank")}
           >
             Admin Portal
           </button>
