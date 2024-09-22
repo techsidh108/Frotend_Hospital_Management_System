@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
           <button
             className="logoutBtn btn"
-            onClick={() => window.open("https://dashboard-hospital-management-system.vercel.app/login", "_blank")}
+            onClick={() => window.open("https://dashboard-hospital-management-system.vercel.app", "_blank")}
           >
             Admin Portal
           </button>
